@@ -4,7 +4,7 @@
 
 ## About Me
 
-I am Baijun Song, a 23-year-old master's student at **Tsinghua University**, supervised by **Prof. Chun Yuan**.
+I am Baijun Song, a master's student at **Tsinghua University**, supervised by **Prof. Chun Yuan**.
 
 My research interest is **unsupervised deep learning**, especially methods that learn useful representations from data without extensive manual annotation. I am interested in developing deep learning models that are scalable, adaptive, and effective across complex data modalities.
 
