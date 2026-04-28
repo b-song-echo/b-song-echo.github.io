@@ -1,11 +1,6 @@
----
-layout: default
-title: Bo Song
----
-
 # Bo Song
 
-<img src="assets/profile.jpg" alt="Profile photo of Bo Song" width="180" style="border-radius: 50%;">
+<img src="assets/profile.jpg" alt="Profile photo of Bo Song" width="180">
 
 **Master's Student | Research Intern | Researcher**
 
