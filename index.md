@@ -1,6 +1,6 @@
 # Bo Song
 
-![Profile photo](assets/profile.jpg)
+<img src="assets/profile.jpg" alt="Profile photo" width="180">
 
 **Master's Student | Research Intern | Researcher**
 
