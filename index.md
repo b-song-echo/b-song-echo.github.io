@@ -30,4 +30,4 @@ My research interest is **unsupervised deep learning**, in particular, deep gene
 ## Publications
 
 - M3Time: LLM-Enhanced Multi-Modal, Multi-Scale, and Multi-Frequency Multivariate Time Series Forecasting. *Shuning Jia, Baijun Song \(equal contribution\), et al. AAAI 2026.* 
-- RibbonTok: Any-Resolution, Single-Stream, and Adaptive-Length Tokenization for Autoregressive Image Generation. *Baijun Song**, et al. ACM Multimedia 2026*
+- RibbonTok: Any-Resolution, Single-Stream, and Adaptive-Length Tokenization for Autoregressive Image Generation. *Baijun Song, et al. ACM Multimedia 2026*
