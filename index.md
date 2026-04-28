@@ -1,161 +1,87 @@
-# Bo Song
+# Baijun Song
 
-<img src="assets/profile.jpg" alt="Profile photo" width="180">
+<img src="assets/profile.jpg" alt="Profile photo of Baijun Song" width="180" style="border-radius: 50%;">
 
-**Master's Student | Research Intern | Researcher**
+## About Me
 
-I am a master's student currently completing an internship, with research experience in academic publication, applied problem-solving, and technical project development. My work focuses on connecting research methods with practical applications, and I am interested in building reliable, understandable, and impactful systems.
+I am Baijun Song, a 23-year-old master's student at **Tsinghua University**, supervised by **Prof. Chun Yuan**.
 
-I have authored/co-authored two academic publications and am actively developing my research, engineering, and communication skills through academic study and industry experience.
+My research interest is **unsupervised deep learning**, especially methods that learn useful representations from data without extensive manual annotation. I am interested in developing deep learning models that are scalable, adaptive, and effective across complex data modalities.
+
+I am currently an intern at **Meituan**, where I have participated in the development of a **world model**.
 
 ---
 
 ## Contact
 
-- **Email:** your.email@example.com  
-- **GitHub:** [github.com/your-username](https://github.com/your-username)  
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-- **Google Scholar:** [Add your profile link here](https://scholar.google.com)  
-- **Location:** Singapore / Your City  
+- **Email:** [b.song.echo@gmail.com](mailto:b.song.echo@gmail.com)
+- **GitHub:** [github.com/b-song-echo](https://github.com/b-song-echo)
+- **Google Scholar:** [Baijun Song](https://scholar.google.com/citations?hl=en&user=azqxpKgAAAAJ)
 
 ---
 
 ## Education
 
-### Master's Degree in [Your Program Name]  
-**[Your University Name]**  
-Expected Graduation: [Month Year]
+### Tsinghua University
 
-Relevant coursework:
+**Master's Student**  
+**September 2024 – June 2027**  
+Supervisor: **Prof. Chun Yuan**
 
-- Research Methods
-- Machine Learning / Data Analysis / Software Engineering
-- Academic Writing
-- [Add course]
-- [Add course]
+Research interest:
 
-### Bachelor's Degree in [Your Previous Program Name]  
-**[Your Previous University Name]**  
-Graduated: [Year]
+- Unsupervised deep learning
+- Representation learning
+- Multi-modal learning
+- Generative modeling
 
 ---
 
-## Internship Experience
+## Experience
 
-### Research / Technical Intern  
-**[Company / Lab / Organization Name]**  
-[Month Year] – Present
+### Meituan
 
-- Contribute to research, development, and technical analysis tasks.
-- Work with supervisors and team members to solve real-world problems.
-- Apply academic knowledge to practical projects.
-- Prepare reports, documentation, and presentations.
-- Develop professional experience in communication, collaboration, and project delivery.
+**Research / Engineering Intern**  
+**2026 – Present**
 
----
-
-## Research Interests
-
-My research interests include:
-
-- [Research Area 1]
-- [Research Area 2]
-- [Research Area 3]
-- Applied data analysis
-- Human-centered technology
-- Reliable and interpretable systems
+- Participated in the development of a **world model**.
+- Worked on deep learning-related research and engineering tasks.
+- Contributed to model development, experimentation, and technical implementation.
 
 ---
 
 ## Publications
 
-### Publication 1
+### M3Time: LLM-Enhanced Multi-Modal, Multi-Scale, and Multi-Frequency Multivariate Time Series Forecasting
 
-**Bo Song**, [Co-author Names].  
-“Title of Your First Publication.”  
-*Journal / Conference Name*, Year.  
-[DOI / Paper Link]
-
-### Publication 2
-
-**Bo Song**, [Co-author Names].  
-“Title of Your Second Publication.”  
-*Journal / Conference Name*, Year.  
-[DOI / Paper Link]
+**Shuning Jia**, **Baijun Song** \(equal contribution\), et al.  
+**AAAI 2026**
 
 ---
 
-## Projects
+### RibbonTok: Any-Resolution, Single-Stream, and Adaptive-Length Tokenization for Autoregressive Image Generation
 
-### Project 1: [Project Name]
-
-Brief description of the project. Explain what problem it solved, what tools you used, and what your contribution was.
-
-**Tools:** Python, Markdown, GitHub, [Other Tools]  
-**Link:** [GitHub Repository or Demo Link]
-
-### Project 2: [Project Name]
-
-Brief description of the project. Focus on measurable impact, technical skills, or research relevance.
-
-**Tools:** [Tools Used]  
-**Link:** [Project Link]
+**Baijun Song**, et al.  
+**ACM Multimedia 2026**
 
 ---
 
-## Skills
+## Research Interests
 
-### Technical Skills
-
-- Python
-- Git and GitHub
-- Markdown
-- Data analysis
-- Literature review
-- Academic writing
-- [Add more]
-
-### Research Skills
-
-- Experimental design
-- Data collection
-- Data interpretation
-- Paper writing
-- Presentation
-- Technical documentation
-
-### Soft Skills
-
-- Communication
-- Team collaboration
-- Problem solving
-- Time management
-- Cross-cultural collaboration
+- Unsupervised deep learning
+- Representation learning
+- Multi-modal learning
+- Time series forecasting
+- Autoregressive image generation
+- Generative modeling
+- World models
 
 ---
 
-## Awards and Honors
+## Links
 
-- [Award Name], [Year]
-- [Scholarship Name], [Year]
-- [Competition / Recognition], [Year]
-
----
-
-## Selected Highlights
-
-- Master's student with active internship experience.
-- Two academic publications.
-- Experience bridging academic research and practical applications.
-- Comfortable maintaining technical documentation using Markdown and GitHub.
-
----
-
-## Download CV
-
-You can add a PDF version of your CV later:
-
-[Download my CV](assets/Bo_Song_CV.pdf)
+- [GitHub](https://github.com/b-song-echo)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&user=azqxpKgAAAAJ)
 
 ---
 
