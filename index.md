@@ -2,7 +2,7 @@
 
 ## About Me
 
-I am Baijun Song from China, currently a master's student at **Tsinghua University**, supervised by **Prof. Chun Yuan**. Contact me by `b.song.echo@gmail.com`.
+I am Baijun Song from China, currently a master's student at **Tsinghua University**, supervised by **Prof. Chun Yuan**.
 
 My research interest is **unsupervised deep learning**, in particular, deep generative models. 
 
