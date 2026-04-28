@@ -1,3 +1,14 @@
-title: "Bo Song"
-description: "Master's Student | Research Intern | Academic CV"
+title: "Baijun Song"
+description: "Master's Student at Tsinghua University | Unsupervised Deep Learning"
 theme: jekyll-theme-minimal
+
+author:
+  name: "Baijun Song"
+  email: "b.song.echo@gmail.com"
+
+logo: /assets/profile.jpg
+
+show_downloads: false
+
+github:
+  is_project_page: false
