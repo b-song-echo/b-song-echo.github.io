@@ -1,6 +1,6 @@
 ## 简介
 
-我是宋柏君，目前就读于**清华大学**袁春教授 CVML 课题组。研究兴趣为无监督学习，当前研究内容为世界模型。
+我是**宋柏君**，**清华大学**硕士在读，袁春教授 CVML 课题组。研究兴趣为无监督学习，当前研究内容为世界模型。
 
 - 电话：19350669024
 - 邮箱：b.song.echo@gmail.com
@@ -10,16 +10,16 @@
 
 ## 经历
 
-- 2025/07 - 至今：美团实习，多模态算法岗。参与项目有图像基座模型、世界生成模型。
-- 2024/09 - 至今：清华大学，电子信息专业。由袁春教授指导，课题内容为多模态视频生成。
-- 2020/09 - 2024/06：大连理工大学，力学专业。学位论文题目为“基于深度神经网络的刚体疲劳损伤预测”。
+- 2025/07 - 至今：**美团**实习，多模态算法岗。参与项目有图像基座模型、世界生成模型。
+- 2024/09 - 至今：**清华大学**，电子信息专业。由袁春教授指导，课题内容为多模态视频生成。
+- 2020/09 - 2024/06：**大连理工大学**，力学专业。学位论文题目为“基于深度神经网络的刚体疲劳损伤预测”。
 
 ---
 
 ## 论文
 
-- [Baijun Song. ACM Multimedia 2026] RibbonTok: Any-Resolution, Single-Stream, and Adaptive-Length Tokenization for Autoregressive Image Generation.
-- [Shuning Jia\*, Baijun Song\*. AAAI 2026] M3Time: LLM-Enhanced Multi-Modal, Multi-Scale, and Multi-Frequency Multivariate Time Series Forecasting.
+- [Baijun Song. **ACM Multimedia 2026**] RibbonTok: Any-Resolution, Single-Stream, and Adaptive-Length Tokenization for Autoregressive Image Generation.
+- [Shuning Jia\*, Baijun Song\*. **AAAI 2026**] M3Time: LLM-Enhanced Multi-Modal, Multi-Scale, and Multi-Frequency Multivariate Time Series Forecasting.
 
 ---
 
