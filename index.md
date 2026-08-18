@@ -29,7 +29,7 @@ description: 清华大学硕士，研究多模态生成、世界模型、表征�
 
 ## 实习 {#internship}
 
-**美团｜多模态算法科研实习生（校企合作）｜点评·智能创作团队**  
+**美团**｜多模态算法科研实习生（校企合作）｜点评·智能创作团队
 2025.07 – 至今  
 获评**美团优秀科研实习生**
 
@@ -62,11 +62,11 @@ description: 清华大学硕士，研究多模态生成、世界模型、表征�
 
 ## 技能 {#skills}
 
-- **模型：** 熟练掌握 PyTorch；熟悉 Transformers、Diffusers 等框架；实现过各种 DiT 结构，如类似 HunyuanVideo 的 MMDiT、类似 Wan 的 DiT；实现过各种位置编码，如类似 Qwen 的 MMRoPE；实现过多模态序列切分/聚合，如针对 MoE-FFN、SP 等场景；熟悉多种 Attention 变体，如 FlashAttention、SageAttention。
-- **训练/推理：** 掌握 FSDP、USP（Ulysses + RingAttention）、Gradient Checkpointing 等训练技巧；熟悉 PyTorch Distributed、Accelerate、DeepSpeed 等训练框架，实操过 HunyuanVideo（8B）在 241 帧 720p 视频上的多机（2 × 8 A100）+ FSDP + USP + Gradient Checkpointing 训练；熟悉 vLLM 等推理框架；掌握多模态/多对话的请求处理；熟悉 DiffSynth-Studio、VideoX-Fun 等第三方仓库。
+- **模型：** 熟练掌握 **PyTorch**；熟悉 **Transformers**、**Diffusers** 等框架；实现过各种 **DiT 结构**，如类似 HunyuanVideo 的 MMDiT、类似 Wan 的 DiT；实现过各种**位置编码**，如类似 Qwen 的 MMRoPE；实现过**多模态序列切分/聚合**，如针对 MoE-FFN、SP 等场景；熟悉多种 **Attention 变体**，如 FlashAttention、SageAttention。
+- **训练/推理：** 掌握 **FSDP**、**USP**（Ulysses + RingAttention）、Gradient Checkpointing 等训练技巧；熟悉 **PyTorch Distributed**、**Accelerate**、**DeepSpeed** 等训练框架，实操过 **HunyuanVideo**（8B）在 241 帧 720p 视频上的多机（2 × 8 A100）+ FSDP + USP + Gradient Checkpointing 训练；熟悉 **vLLM** 等推理框架；掌握多模态/多对话的请求处理；熟悉 DiffSynth-Studio、VideoX-Fun 等第三方仓库。
 - **数据：** 多模态数据下载、管理、清洗；数据生成、标注、筛选、分析等。
-- **编程：** 掌握 Python、C++；熟悉 Swift、C#；了解 Triton、CUDA、Metal。
-- **英语：** TOEFL 106（L30 / R29 / S24 / W23），CET-6 624，CET-4 647。
+- **编程：** 掌握 **Python**、**C++**；熟悉 Swift、C#；了解 **Triton**、CUDA、Metal。
+- **英语：** **TOEFL 106**（L30 / R29 / S24 / W23），CET-6 624，CET-4 647。
 
 [返回顶部](#top)
 {: .back-to-top }
