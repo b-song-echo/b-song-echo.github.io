@@ -12,7 +12,7 @@ description: 清华大学硕士，研究多模态生成、世界模型、表征�
 
 [19350669024](tel:+8619350669024) · [b.song.echo@gmail.com](mailto:b.song.echo@gmail.com) · [GitHub](https://github.com/b-song-echo){:target="_blank" rel="noopener noreferrer"} · [Google Scholar](https://scholar.google.com/citations?hl=en&user=azqxpKgAAAAJ){:target="_blank" rel="noopener noreferrer"}
 
-专注于多模态生成、世界模型、表征学习，具备从研究问题定义到模型设计再到大规模训练与评测的完整实践经验。
+专注于多模态生成、世界模型、表征学习，具备从问题定义到模型设计再到大规模训练与评测的完整实践经验。
 
 ---
 

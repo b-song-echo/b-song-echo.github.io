@@ -175,13 +175,7 @@ h2 + ul > li {
 
 @media (max-width: 700px) {
   body {
-    background: linear-gradient(
-      to bottom,
-      #f2f3f5 0,
-      #f2f3f5 32mm,
-      #fff 32mm,
-      #fff 100%
-    );
+    background: #fff;
   }
 
   .page-shell {
@@ -239,11 +233,30 @@ h2 + ul > li {
   }
 
   body {
+    position: relative;
     background: #fff;
     font-size: 10pt;
     line-height: 1.32;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
+  }
+
+  body::before {
+    position: absolute;
+    z-index: 0;
+    top: -3mm;
+    right: -3mm;
+    left: -3mm;
+    height: 36mm;
+    background: #eceff2;
+    content: "";
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  body > * {
+    position: relative;
+    z-index: 1;
   }
 
   .page-shell {
