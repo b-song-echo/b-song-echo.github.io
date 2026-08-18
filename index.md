@@ -16,7 +16,7 @@ description: 清华大学硕士，研究多模态生成、世界模型、表征�
 
 ---
 
-[教育](#education) · [实习](#internship) · [论文](#publications) · [技能](#skills)
+[教育](#education) · [实习](#internship) · [论文](#publications) · [其他](#misc)
 {: .section-nav }
 
 ## 教育 {#education}
@@ -63,11 +63,12 @@ description: 清华大学硕士，研究多模态生成、世界模型、表征�
 3. [**M3Time: LLM-Enhanced Multi-Modal, Multi-Scale, and Multi-Frequency Multivariate Time Series Forecasting**](assets/M3Time.pdf){:target="_blank" rel="noopener noreferrer"}  
    **共同第一作者**，AAAI 2026 Poster｜[论文 PDF](assets/M3Time.pdf){:target="_blank" rel="noopener noreferrer"}
 
-## 技能 {#skills}
+## 其他 {#misc}
 
-- **技术：** **Python、C++、PyTorch**；熟悉 **Transformers、Diffusers**；了解 **Triton、CUDA、Metal**。
+- **编程：** 掌握 **Python、C++、PyTorch**；了解 **Triton、CUDA、Metal**。
 - **英语：** **TOEFL 106**（L30 / R29 / S24 / W23），CET-6 624，CET-4 647。
-- **获奖：**
+- **绩点：** 本科 3.4 / 4.0，硕士 3.9 / 4.0。
+- **竞赛：** 2022 数模国赛省三等奖。
 
 [返回顶部](#top)
 {: .back-to-top }
