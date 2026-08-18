@@ -1,0 +1,74 @@
+---
+layout: default
+title: 宋柏君 · 个人简历
+description: 清华大学硕士，多模态生成基础模型、世界模型与视觉表征研究。
+---
+
+![宋柏君的证件照](assets/profile.jpg){: .profile-photo }
+
+# 宋柏君 {#top}
+
+**多模态生成基础模型 · 世界模型 · 视觉表征**
+
+[193 5066 9024](tel:+8619350669024) · [b.song.echo@gmail.com](mailto:b.song.echo@gmail.com) · [GitHub](https://github.com/b-song-echo){:target="_blank" rel="noopener noreferrer"} · [Google Scholar](https://scholar.google.com/citations?hl=en&user=azqxpKgAAAAJ){:target="_blank" rel="noopener noreferrer"}
+
+专注于多模态生成基础模型、世界模型与视觉表征，具备从研究问题定义、模型设计到大规模训练与评测的完整实践经验。
+
+---
+
+[教育经历](#education) · [实习与研究](#experience) · [论文](#publications) · [技能](#skills)
+{: .section-nav }
+
+## 教育经历 {#education}
+
+**清华大学**｜电子信息｜硕士｜GPA **3.9/4.0**｜袁春教授指导  
+2024.09 – 2027.06
+
+**大连理工大学**｜力学｜本科｜GPA **3.4/4.0**  
+2020.09 – 2024.06
+
+## 实习与研究经历 {#experience}
+
+**美团｜多模态算法科研实习生（校企科研合作）｜点评·智能创作团队**  
+2025.07 – 至今  
+获得**美团优秀科研实习生**荣誉
+
+### WorldRoll：Pose-Free World Model Data & Post-Training
+
+*第一作者，AAAI 2027 Under Review｜2025.08 – 2026.07*
+
+- **独立设计并实现**面向 I2V world modeling 的数据与 post-training 框架，将 camera pose / trajectory 等 privileged supervision 转化为仅依赖**首帧 + 自然语言指令**的 world rollout 学习信号，无需在学生模型训练或推理阶段输入显式相机轨迹，即可实现精确的相机控制。
+- 构建**三源数据 pipeline**：融合带相机位姿真实视频、动态真实视频及教师世界模型生成数据；完成 VLM annotation、teacher synthesis、quality filtering，从约 **120K candidates 筛选得到 60K 高质量训练视频**。
+- 基于 **LTX-Video-2B** 与 **CogVideoX-Fun-2B** 的原生训练框架完成 LoRA post-training；在 **16×A100 / 2 nodes** 上完成训练，并系统分析 data composition、data scale、LoRA rank 与 training duration。
+- 相比相同 baseline，LTX / CogVideoX-Fun 的 **WorldScore Static 提升 8.1% / 8.8%，Dynamic 提升 5.5% / 5.9%，WorldModelBench 提升 5.2% / 4.9%**；目前进一步面向大众点评商家场景构建垂域 world-model 数据。
+
+### RibbonTok：Causal Adaptive-Length Visual Tokenization for AR Generation
+
+*第一作者，AAAI 2027 Under Review｜2025.08 – 2026.07*
+
+- **独立提出并实现**面向 autoregressive image generation 的 multi-resolution、single-stream、adaptive-length visual tokenizer，将图像编码为**coarse-to-fine 的 1D causal token sequence**，任意 prefix 均可独立用于重建与生成。
+- 设计 **causal masked-register ViT、stacked directional codebooks、multi-resolution coalesce matching 与 rectified-flow detokenizer**，使逻辑图像表征与物理输出分辨率解耦，并显式约束跨分辨率视图的 common-prefix discrete identity。
+- 独立完成 tokenizer、AR generator、training / evaluation 全链路，在 **8×A100** 上训练最高 **2.54B tokenizer + 3B generator**；实现 multi-resolution / prefix training 及完整消融与效率评测。
+- ImageNet 上取得 **rFID 1.04 @ 256**；3B AR 模型仅生成 **32 tokens** 即达到 **gFID 1.43 / IS 348.8**，端到端生成 **2.87s / image on A100**，相较保守 LlamaGen-3B comparison proxy 实现 **>2× E2E speedup**。
+
+## 论文 {#publications}
+
+1. [**WorldRoll: From Privileged Camera Trajectories to Pose-Free World Rollouts**](assets/WorldRoll_main.pdf){:target="_blank" rel="noopener noreferrer"}  
+   **第一作者**，AAAI 2027 Under Review｜[论文 PDF](assets/WorldRoll_main.pdf){:target="_blank" rel="noopener noreferrer"} · [补充材料](assets/WorldRoll_supp.pdf){:target="_blank" rel="noopener noreferrer"}
+
+2. [**RibbonTok: Multi-Resolution, Single-Stream, and Adaptive-Length Tokenization for Autoregressive Image Generation**](assets/RibbonTok_main.pdf){:target="_blank" rel="noopener noreferrer"}  
+   **第一作者**，AAAI 2027 Under Review｜[论文 PDF](assets/RibbonTok_main.pdf){:target="_blank" rel="noopener noreferrer"} · [补充材料](assets/RibbonTok_supp.pdf){:target="_blank" rel="noopener noreferrer"}
+
+3. [**M3Time: LLM-Enhanced Multi-Modal, Multi-Scale, and Multi-Frequency Multivariate Time Series Forecasting**](assets/M3Time.pdf){:target="_blank" rel="noopener noreferrer"}  
+   **共同第一作者**，AAAI 2026 Poster｜[论文 PDF](assets/M3Time.pdf){:target="_blank" rel="noopener noreferrer"}
+
+## 技能 {#skills}
+
+- **模型与训练：** PyTorch，HuggingFace Transformers / Diffusers，vLLM；熟悉 image / video foundation model training、post-training 与 evaluation
+- **分布式训练：** PyTorch Distributed / FSDP、Accelerate、DeepSpeed；具备多机训练经验，熟悉 gradient checkpointing、FlashAttention
+- **多模态工程：** 实现过多模态 MMRoPE、Sequence Parallel 数据切分；熟悉 VLM-based annotation / filtering、中规模视频数据生成与处理
+- **编程语言：** Python、CUDA、C++、Swift、C#
+- **英语：** TOEFL **106**（L30 / R29 / S24 / W23），CET-6 **624**
+
+[返回顶部](#top)
+{: .back-to-top }

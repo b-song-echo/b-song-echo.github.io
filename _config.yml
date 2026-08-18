@@ -1,6 +1,10 @@
 title: "宋柏君"
 description: "清华大学硕士，多模态生成基础模型、世界模型与视觉表征研究。"
 theme: jekyll-theme-minimal
+markdown: kramdown
+
+kramdown:
+  input: GFM
 
 lang: zh-CN
 
