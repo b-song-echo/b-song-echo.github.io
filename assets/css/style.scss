@@ -175,7 +175,13 @@ h2 + ul > li {
 
 @media (max-width: 700px) {
   body {
-    background: #fff;
+    background: linear-gradient(
+      to bottom,
+      #f2f3f5 0,
+      #f2f3f5 32mm,
+      #fff 32mm,
+      #fff 100%
+    );
   }
 
   .page-shell {
@@ -229,13 +235,15 @@ h2 + ul > li {
 @media print {
   @page {
     size: A4;
-    margin: 10mm 12mm;
+    margin: 9mm 11mm;
   }
 
   body {
     background: #fff;
-    font-size: 8.5pt;
-    line-height: 1.42;
+    font-size: 10pt;
+    line-height: 1.32;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
   }
 
   .page-shell {
@@ -243,50 +251,68 @@ h2 + ul > li {
     max-width: none;
     margin: 0;
     padding: 0;
+    background: transparent;
     box-shadow: none;
   }
 
   h1 {
-    font-size: 22pt;
+    font-size: 25pt;
   }
 
   h2 {
-    margin: 8pt 0 4pt;
-    padding-bottom: 1.5pt;
-    font-size: 11pt;
+    position: relative;
+    margin: 9pt 0 3.5pt;
+    padding: 0 0 2pt 8pt;
+    color: var(--accent);
+    border-bottom: 0.7pt solid #9bafbf;
+    font-size: 13pt;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    break-after: avoid;
+  }
+
+  h2::before {
+    position: absolute;
+    top: 1.2pt;
+    bottom: 3pt;
+    left: 0;
+    width: 2.5pt;
+    background: var(--accent);
+    border-radius: 1pt;
+    content: "";
   }
 
   h3 {
-    margin: 5pt 0 1pt;
-    font-size: 9.5pt;
+    margin: 4.5pt 0 1pt;
+    font-size: 10.8pt;
   }
 
   p {
-    margin: 1.5pt 0;
+    margin: 1pt 0;
   }
 
   em {
-    font-size: 7.8pt;
+    font-size: 8.8pt;
   }
 
   hr {
-    margin-top: 6pt;
+    display: none;
   }
 
   ul,
   ol {
-    margin: 2pt 0;
+    margin: 1pt 0;
     padding-left: 14pt;
   }
 
   li {
-    margin: 0.6pt 0;
+    margin: 0.3pt 0;
   }
 
   .profile-photo {
-    width: 20mm;
-    height: 25mm;
-    margin: 0 0 4pt 14pt;
+    width: 19mm;
+    height: 23.75mm;
+    margin: 0 0 3pt 12pt;
   }
 
   figure {
@@ -304,7 +330,7 @@ h2 + ul > li {
 
   h2 + ol > li,
   h2 + ul > li {
-    margin: 1.5pt 0;
+    margin: 1pt 0;
   }
 
   h3,
