@@ -16,10 +16,10 @@ description: 清华大学硕士，多模态生成基础模型、世界模型与�
 
 ---
 
-[教育经历](#education) · [实习与研究](#experience) · [论文](#publications) · [技能](#skills)
+[教育](#education) · [实习](#experience) · [论文](#publications) · [技能](#skills)
 {: .section-nav }
 
-## 教育经历 {#education}
+## 教育 {#education}
 
 **清华大学**｜电子信息｜硕士｜GPA **3.9/4.0**｜袁春教授指导  
 2024.09 – 2027.06
@@ -27,7 +27,7 @@ description: 清华大学硕士，多模态生成基础模型、世界模型与�
 **大连理工大学**｜力学｜本科｜GPA **3.4/4.0**  
 2020.09 – 2024.06
 
-## 实习与研究经历 {#experience}
+## 实习 {#experience}
 
 **美团｜多模态算法科研实习生（校企科研合作）｜点评·智能创作团队**  
 2025.07 – 至今  
@@ -68,7 +68,7 @@ description: 清华大学硕士，多模态生成基础模型、世界模型与�
 - **分布式训练：** PyTorch Distributed / FSDP、Accelerate、DeepSpeed；具备多机训练经验，熟悉 gradient checkpointing、FlashAttention
 - **多模态工程：** 实现过多模态 MMRoPE、Sequence Parallel 数据切分；熟悉 VLM-based annotation / filtering、中规模视频数据生成与处理
 - **编程语言：** Python、CUDA、C++、Swift、C#
-- **英语：** TOEFL **106**（L30 / R29 / S24 / W23），CET-6 **624**
+- **英语：** TOEFL **106**（L30 / R29 / S24 / W23），CET-6 **624**，CET-4 **647**
 
 [返回顶部](#top)
 {: .back-to-top }
