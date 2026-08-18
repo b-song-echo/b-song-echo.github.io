@@ -4,7 +4,7 @@ title: 宋柏君 · 个人简历
 description: 清华大学硕士，研究多模态生成、世界模型、表征学习等。
 ---
 
-![宋柏君的证件照](assets/profile.jpg){: .profile-photo }
+![宋柏君的照片](assets/profile.jpg){: .profile-photo }
 
 # 宋柏君 {#top}
 

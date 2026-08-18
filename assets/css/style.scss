@@ -229,13 +229,13 @@ h2 + ul > li {
 @media print {
   @page {
     size: A4;
-    margin: 11mm 13mm;
+    margin: 10mm 12mm;
   }
 
   body {
     background: #fff;
-    font-size: 9px;
-    line-height: 1.48;
+    font-size: 8.5pt;
+    line-height: 1.42;
   }
 
   .page-shell {
@@ -247,46 +247,54 @@ h2 + ul > li {
   }
 
   h1 {
-    font-size: 27px;
+    font-size: 22pt;
   }
 
   h2 {
-    margin: 14px 0 7px;
-    padding-bottom: 2px;
-    font-size: 13px;
+    margin: 8pt 0 4pt;
+    padding-bottom: 1.5pt;
+    font-size: 11pt;
   }
 
   h3 {
-    margin: 9px 0 1px;
-    font-size: 11px;
+    margin: 5pt 0 1pt;
+    font-size: 9.5pt;
   }
 
   p {
-    margin: 3px 0;
+    margin: 1.5pt 0;
   }
 
   em {
-    font-size: 8px;
+    font-size: 7.8pt;
   }
 
   hr {
-    margin-top: 11px;
+    margin-top: 6pt;
   }
 
   ul,
   ol {
-    margin: 3px 0;
-    padding-left: 16px;
+    margin: 2pt 0;
+    padding-left: 14pt;
   }
 
   li {
-    margin: 1px 0;
+    margin: 0.6pt 0;
   }
 
   .profile-photo {
-    width: 70px;
-    height: 88px;
-    margin: 0 0 6px 20px;
+    width: 20mm;
+    height: 25mm;
+    margin: 0 0 4pt 14pt;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  figcaption {
+    display: none;
   }
 
   .section-nav,
@@ -296,7 +304,7 @@ h2 + ul > li {
 
   h2 + ol > li,
   h2 + ul > li {
-    margin: 3px 0;
+    margin: 1.5pt 0;
   }
 
   h3,
