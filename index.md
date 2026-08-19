@@ -54,14 +54,14 @@ description: 清华大学硕士，研究多模态生成、世界模型、表征�
 
 ## 论文 {#publications}
 
-1. [**WorldRoll: From Privileged Camera Trajectories to Pose-Free World Rollouts**](assets/WorldRoll_main.pdf){:target="_blank" rel="noopener noreferrer"}  
+1. **WorldRoll: From Privileged Camera Trajectories to Pose-Free World Rollouts**  
    **第一作者**，AAAI 2027 Under Review｜[论文 PDF](assets/WorldRoll_main.pdf){:target="_blank" rel="noopener noreferrer"} · [补充材料 PDF](assets/WorldRoll_supp.pdf){:target="_blank" rel="noopener noreferrer"}
 
-2. [**RibbonTok: Multi-Resolution, Single-Stream, and Adaptive-Length Tokenization for Autoregressive Image Generation**](assets/RibbonTok_main.pdf){:target="_blank" rel="noopener noreferrer"}  
+2. **RibbonTok: Multi-Resolution, Single-Stream, and Adaptive-Length Tokenization for Autoregressive Image Generation**  
    **第一作者**，AAAI 2027 Under Review｜[论文 PDF](assets/RibbonTok_main.pdf){:target="_blank" rel="noopener noreferrer"} · [补充材料 PDF](assets/RibbonTok_supp.pdf){:target="_blank" rel="noopener noreferrer"}
 
-3. [**M3Time: LLM-Enhanced Multi-Modal, Multi-Scale, and Multi-Frequency Multivariate Time Series Forecasting**](assets/M3Time.pdf){:target="_blank" rel="noopener noreferrer"}  
-   **共同第一作者**，AAAI 2026 Poster｜[论文 PDF](assets/M3Time.pdf){:target="_blank" rel="noopener noreferrer"}
+3. **M3Time: LLM-Enhanced Multi-Modal, Multi-Scale, and Multi-Frequency Multivariate Time Series Forecasting**  
+   **共同第一作者**，AAAI 2026 Poster｜[AAAI 论文页](https://ojs.aaai.org/index.php/AAAI/article/view/39383){:target="_blank" rel="noopener noreferrer"} · [论文 PDF](assets/M3Time.pdf){:target="_blank" rel="noopener noreferrer"}
 
 ## 其他 {#misc}
 
