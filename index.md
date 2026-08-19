@@ -34,11 +34,12 @@ description: 清华大学硕士，研究多模态生成、世界模型、表征�
 
 *第一作者，AAAI 2027 Under Review｜2025.08 – 2026.07*
 
-- **独立设计并实现**面向 I2V 模型的 world rollout 后训练数据 pipeline：将相机位姿/轨迹信号转化为以**首帧 + 自然语言**为条件的监督数据，使模型在训练和推理阶段仅依赖自然语言即可实现精确的相机控制。
-- 构建包含 **60K 视频的三源数据集**：融合带相机位姿的真实视频（PA）、包含场景动态的真实视频（DR）与 **HY-WorldPlay** 生成的视频（TG）；使用 **Qwen3.6-27B** 对 scene / subject / camera 进行结构化标注，并采用 group-balanced 策略完成质量过滤。
-- 完成 **LTX-Video-2B** 与 **CogVideoX-Fun-2B** 在该数据集上的微调。两者的 WorldScore Static / Dynamic 分别提升 **8.1% / 5.5%** 与 **8.8% / 5.9%**，WorldModelBench 分别提升 **5.2% / 4.9%**；完成 data composition、LoRA rank、data / training scaling 等实验。
+- **独立设计并实现**面向 I2V 模型的 world rollout 后训练数据 pipeline：将相机位姿/轨迹信号转化为以**首帧 + 自然语言**为条件的监督数据，使模型在训练和推理阶段仅依赖自然语言即可实现精细的相机控制。
+- 构建包含 **120K 视频的三源数据集**：融合带相机位姿的真实视频（PA）、包含场景动态的真实视频（DR）与教师世界模型（**HY-WorldPlay**）生成的视频（TG）；使用 **Qwen3.6-27B** 对真实视频的 scene / subject / camera 进行结构化标注，并采用 group-balanced 策略进行质量过滤，得到 **60k** 高质量训练数据。
+- **位姿量化与语言监督：** 将相机位姿序列转化为 **motion-unit statistics**，并通过 prompt template 提供解释和标注的规则。引导 VLM 生成带旋转角度 / 位移幅值的相机运动描述。
+- 完成 **LTX-Video-2B** 与 **CogVideoX-Fun-2B** 的微调。两者的 WorldScore Static / Dynamic 分别提升 **8.1% / 5.5%** 与 **8.8% / 5.9%**，WorldModelBench 分别提升 **5.2% / 4.9%**；完成 data composition、LoRA rank、data / training scaling 等实验。
 - **大规模训练工程：** 实现 **HunyuanVideo** 在 241 帧 / 720p 视频上的**多机 + FSDP + USP（Ulysses + RingAttention）**训练。
-- **垂域扩展：** 正将上述数据 pipeline 迁移至**大众点评商家 I2V 场景**，构建垂域训练数据，支持门店图像 + 预设 prompt 的短视频生成。
+- **垂域扩展：** 应用至**大众点评商家 I2V 场景**，构建垂域训练数据，支持门店图像 + 预设 prompt 的短视频生成。
 
 ### RibbonTok：Visual Tokenization for AR Generation
 
@@ -46,7 +47,8 @@ description: 清华大学硕士，研究多模态生成、世界模型、表征�
 
 - **独立设计并实现**面向自回归图像生成、具备 resolution consistency、离散 1D 表征与可变长度编码能力的 tokenizer。该模型将图像编码为 **coarse-to-fine causal token 序列**，支持对任意前缀进行独立解码与重建，并将 **token budget（logical description）与 output grid（physical resolution）解耦**，直接降低自回归生成开销。
 - 设计 **causal masked-register ViT + stacked directional codebooks + rectified-flow DiT**，并提出全新训练约束 **coalesce matching**：在 VQ 阶段显式约束跨分辨率 triplet 视图的前缀表征，使相同逻辑内容在不同物理分辨率下保持一致。
-- 训练 300M / 1B / 2.5B 三种规模的 tokenizer，其中 2.5B 模型在 ImageNet 重建达到 **rFID 1.04 / PSNR 19.36 / SSIM 0.582**；完成结构与训练策略的消融及 codebook 分析等实验。
+- **自回归生成离散 token：** 每个 token 由 **4 个独立 codes 组成**，每个 code 对应一个 **16k** 大小的 codebook；自回归模型每次由 4 个 heads 并行预测 4 个 codes。
+- 训练 300M / 1B / 2.5B 三种规模的 tokenizer，其中 2.5B 模型在 ImageNet 重建达到 **rFID 1.04 / PSNR 19.36 / SSIM 0.582**；完成结构与训练策略的消融及 codebook 分析等实验，模块全部有效，且 codebook 利用率达到 **0.97**。
 - 训练 1B / 3B 两种规模的 Llama-style 自回归生成模型，其中 3B 模型仅使用 **LlamaGen-3B** 约 1/8 的 token 数量即取得更优效果，在 ImageNet 达到 **gFID 1.43 / IS 348.8**，同时实现 **>2× 端到端加速**。
 
 ## 论文 {#publications}

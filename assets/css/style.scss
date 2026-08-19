@@ -233,14 +233,14 @@ h2 + ul > li {
 @media print {
   @page {
     size: A4;
-    margin: 12mm 8mm;
+    margin: 8mm;
   }
 
   body {
     position: relative;
     background: #fff;
     font-size: 10pt;
-    line-height: 1.31;
+    line-height: 1.44;
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
   }
