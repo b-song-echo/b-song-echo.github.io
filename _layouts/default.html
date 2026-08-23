@@ -10,7 +10,44 @@
   </head>
   <body>
     <div class="page-shell">
+      <div class="language-switch" role="group" aria-label="简历语言 / Résumé language">
+        <span class="language-switch__label">语言 / Language</span>
+        <button type="button" data-language-button="zh-CN" aria-pressed="true">中文</button>
+        <button type="button" data-language-button="en" aria-pressed="false">English</button>
+      </div>
       {{ content }}
     </div>
+    <script>
+      (() => {
+        const resumes = Array.from(document.querySelectorAll("[data-resume-language]"));
+        const buttons = Array.from(document.querySelectorAll("[data-language-button]"));
+
+        const selectLanguage = (language) => {
+          const selectedResume = resumes.find((resume) => resume.dataset.resumeLanguage === language);
+          if (!selectedResume) return;
+
+          resumes.forEach((resume) => {
+            const isSelected = resume === selectedResume;
+            resume.hidden = !isSelected;
+            resume.setAttribute("aria-hidden", String(!isSelected));
+          });
+
+          buttons.forEach((button) => {
+            button.setAttribute("aria-pressed", String(button.dataset.languageButton === language));
+          });
+
+          document.documentElement.lang = language;
+          document.title = selectedResume.dataset.documentTitle;
+          window.scrollTo(0, 0);
+        };
+
+        buttons.forEach((button) => {
+          button.addEventListener("click", () => selectLanguage(button.dataset.languageButton));
+        });
+
+        const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
+        selectLanguage(requestedLanguage === "en" ? "en" : "zh-CN");
+      })();
+    </script>
   </body>
 </html>
